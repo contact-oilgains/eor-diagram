@@ -63,10 +63,10 @@
 		% make sure braces are inside the bounding box
 		\path (10.8,1.0) (-9.4,-16.2);
 		% brace brackets
-		\draw[decorate,decoration={brace,amplitude=8pt},thick,conv] (7.0,0.7) -- (7.0,-7.9)
-		node[midway,xshift=0.9cm,rotate=-90,anchor=south,font=\large\bfseries] {CONVENTIONAL};
-		\draw[decorate,decoration={brace,amplitude=8pt},thick,eor] (9.9,-9.2) -- (9.9,-14.6)
-		node[midway,xshift=0.9cm,rotate=-90,anchor=south,font=\large\bfseries] {EOR};
+		\draw[decorate,decoration={brace,amplitude=8pt},thick,conv] (9.9,0.7) -- (9.9,-7.9);
+		\node[rotate=-90,anchor=south,font=\large\bfseries] at (10.8,-3.6) {CONVENTIONAL};
+		\draw[decorate,decoration={brace,amplitude=8pt},thick,eor] (9.9,-9.2) -- (9.9,-14.6);
+		\node[rotate=-90,anchor=south,font=\large\bfseries] at (10.8,-11.9) {EOR};
 		
 		\node[font=\large\bfseries] at (0,-15.6)
 		{Oil recovery stages and EOR methods};
